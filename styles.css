@@ -190,7 +190,7 @@ nav a {
 .Shogun {
     text-align: center;
     padding: 400px;
-    background: url('/img/Shogun.jpg');
+    background: url('img/Shogun.jpg');
     background-size: cover;
     color: #fff;
 }
