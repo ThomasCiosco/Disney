@@ -1,0 +1,305 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #1E90FF;
+}
+
+/* Action buttons */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-inscrire {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-inscrire:hover {
+    background-color: #0056b3;
+}
+
+.btn-connexion {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.btn-connexion:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.abonnement {
+    text-align: center;
+    padding: 40px;
+}
+
+.abonnement h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.option-btn {
+    background-color: #1e1e1e;
+    border: 2px solid #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option-btn span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.option-btn:hover {
+    background-color: #2c2c2c;
+}
+
+.premium {
+    background-color: #008b8b;
+    border-color: #008b8b;
+}
+
+.premium:hover {
+    background-color: #007b7b;
+}
+
+.table-abonnement {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+}
+
+.table-abonnement th, .table-abonnement td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.table-abonnement th {
+    background-color: #333;
+    font-weight: bold;
+    color: #fff;
+}
+
+.table-abonnement td {
+    background-color: #222;
+}
+
+.table-abonnement td:nth-child(2), .table-abonnement th:nth-child(2) {
+    background-color: #181818;
+}
+
+.note {
+    color: #888;
+    font-size: 14px;
+    margin-top: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #690808;
+    font-weight: 600;
+}
+
+.Shogun {
+    text-align: center;
+    padding: 400px;
+    background: url('/img/Shogun.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.Abo-button {
+    background-color: #1e7ce8;
+    color: #000000;
+    padding: 15px 15px;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.abo {
+    padding: 20px;
+    text-align: center;
+}
+
+.abo h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.abo-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* au-dessus tableau */
+}
+
+.abo-table table {
+    width: 80%; /* largeur tableau du conteneur parent */
+    border-collapse: separate; /* modèle de bordure séparée, gérer bordures individuellement */
+    border-spacing: 0; /* Supprime l'espacement entre les cellules */
+    background-color: #ade7a9; /* Couleur de fond pour le tableau */
+    border-radius: 12px; /* Bordures arrondies pour le tableau */
+}
+
+.abo-table th, .abo-table td {
+    border-bottom: 1px solid #000000; /*Bordure*/
+    padding: 12px 15px; /* Espacement intérieur des cellules */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+.abo-table th {
+    background-color: #038b3c; /* Couleur de fond des en-têtes de colonne */
+    color: #ededed; /* Couleur du texte des en-têtes de colonne */
+    font-weight: bold; /* Texte en gras pour les en-têtes */
+    border-bottom: 2px solid #038b3c; /* Bordure inférieure plus épaisse pour les en-têtes */
+}
+
+.abo-table tr:hover {
+    background-color: #ffffff67; /* Couleur de fond lors du survol des lignes */
+}
+
+.abo-table td:first-child, .abo-table th:first-child {
+    border-top-left-radius: 12px; /* Bordure supérieure gauche arrondie */
+}
+
+.abo-table td:last-child, .abo-table th:last-child {
+    border-top-right-radius: 12px; /* Bordure supérieure droite arrondie */
+}
+
+.abo-table th, .abo-table td:last-child {
+    border-right: none; /* Enlever la bordure droite */
+}
+
+.devices {
+    padding: 50px;
+    text-align: center;
+}
+
+.device-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* wrap des éléments */
+    gap: 350px; /* Espacement icônes */
+}
+
+.device {
+    display: flex;
+    flex-direction: column; /* Aligner les éléments verticalement */
+    align-items: center; /* Centrer les éléments horizontalement */
+    text-align: center;
+}
+
+.device img {
+    width: 100px;
+    margin-bottom: 0px; /* Espacement entre l'image et le texte */
+}
+
+footer {
+    padding: 20px;
+    background-color: #141414;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
